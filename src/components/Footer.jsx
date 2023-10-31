@@ -1,9 +1,9 @@
 import logo from "../assets/logo.svg";
 const Footer = () => {
     return (
-        <footer className="footer bg-base-200 text-base-content">
+        <footer className="footer my-28 bg-[#151515] text-white p-12">
         <aside>
-        <img src={logo} alt="logo" />
+        <img className="z-10" src={logo} alt="logo" />
           <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
         </aside> 
         <nav>
